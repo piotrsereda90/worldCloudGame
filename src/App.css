@@ -1,38 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  ;
+  margin-top: 200px;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  background-color: darkcyan;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ////////////////////////////////////////////////////////Form///////////////////////////////////////////////////////////////// */
+
+.nickNameForm {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+  align-items: center;
+}
+
+.inputForm {
+  width: 300px;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+
+}
+
+.playBtn {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 100px;
+}
+
+/* ////////////////////////////////////////////////////////Wall///////////////////////////////////////////////////////////////// */
+.wallWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.question {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.animalWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 55px;
+}
+
+.animal {
+  width: 30%;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.animal-active {
+  color: '#ddd'
+}
+
+.checkButton {
+  padding: 5px 15px;
+  margin-top: 30px;
+  color: deepskyblue;
+  border-radius: 15px;
+  border: none;
+}
+
+.checkButton:hover {
+  cursor: pointer;
+}
+
+.checkButtonWrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.word:hover {
+  cursor: pointer;
 }
