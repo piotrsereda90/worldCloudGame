@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/worldCloudGame/static/css/main.b2a620db.chunk.css",
+    "main.js": "/worldCloudGame/static/js/main.5c559708.chunk.js",
+    "main.js.map": "/worldCloudGame/static/js/main.5c559708.chunk.js.map",
+    "runtime-main.js": "/worldCloudGame/static/js/runtime-main.ab18bb6c.js",
+    "runtime-main.js.map": "/worldCloudGame/static/js/runtime-main.ab18bb6c.js.map",
+    "static/js/2.e5149900.chunk.js": "/worldCloudGame/static/js/2.e5149900.chunk.js",
+    "static/js/2.e5149900.chunk.js.map": "/worldCloudGame/static/js/2.e5149900.chunk.js.map",
+    "static/js/3.179ba80b.chunk.js": "/worldCloudGame/static/js/3.179ba80b.chunk.js",
+    "static/js/3.179ba80b.chunk.js.map": "/worldCloudGame/static/js/3.179ba80b.chunk.js.map",
+    "index.html": "/worldCloudGame/index.html",
+    "static/css/main.b2a620db.chunk.css.map": "/worldCloudGame/static/css/main.b2a620db.chunk.css.map",
+    "static/js/2.e5149900.chunk.js.LICENSE.txt": "/worldCloudGame/static/js/2.e5149900.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab18bb6c.js",
+    "static/js/2.e5149900.chunk.js",
+    "static/css/main.b2a620db.chunk.css",
+    "static/js/main.5c559708.chunk.js"
+  ]
+}
