@@ -65,7 +65,7 @@ function App() {
       {showLoginForm ? <Form handelForm={handelForm} handelChange={handelChange} />:null}
       {showWall ? <Wall data={data} setData={setData} setShowResult={setShowResult} setShowWall={setShowWall}/>: null }
       {showResult ? <Result data={data} setShowSummary={setShowSummary} setShowResult={setShowResult} matchResult={matchResult} />: null}
-      {showSummary ? <Summary  data={data} nickName = {nickName} goodAnswer={goodAnswer} badAnswer={badAnswer} notCheckedGoodAnswer={notCheckedGoodAnswer}/>: null}
+      {showSummary ? <Summary  nickName = {nickName} goodAnswer={goodAnswer} badAnswer={badAnswer} notCheckedGoodAnswer={notCheckedGoodAnswer}/>: null}
     </div>
   );
 }
